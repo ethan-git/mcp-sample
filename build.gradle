@@ -1,0 +1,48 @@
+plugins {
+    id 'java'
+    id 'org.springframework.boot' version '3.4.5'
+    id 'io.spring.dependency-management' version '1.1.0'
+    id 'java-library'
+}
+
+group = 'org.fubabz'
+version = '1.0-SNAPSHOT'
+
+repositories {
+    gradlePluginPortal()
+}
+
+bootJar.enabled = false
+
+allprojects {
+
+    apply plugin: 'java'
+    apply plugin: 'idea'
+    apply plugin: 'org.springframework.boot'
+    apply plugin: 'io.spring.dependency-management'
+
+    sourceCompatibility = 17
+
+    repositories {
+        mavenCentral()
+    }
+
+    dependencies {
+        compileOnly 'org.projectlombok:lombok:1.18.26'
+        annotationProcessor 'org.projectlombok:lombok:1.18.26'
+
+        testImplementation 'org.springframework.boot:spring-boot-starter-test:3.4.5'
+    }
+
+    test {
+        useJUnitPlatform()
+    }
+}
+
+project(':llm-api') {
+    archivesBaseName = 'llm-api'
+
+    dependencies {
+
+    }
+}

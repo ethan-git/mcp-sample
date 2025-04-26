@@ -1,0 +1,3 @@
+rootProject.name = 'mcp-sample'
+include 'llm-api'
+

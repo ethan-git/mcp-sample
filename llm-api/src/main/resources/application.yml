@@ -1,0 +1,18 @@
+spring:
+  profiles:
+    active: local
+  application:
+    name: llm-api
+  ai:
+    ollama:
+      base-url: http://localhost:11434
+      init:
+        pull-model-strategy: always
+      chat:
+        options:
+          model: llama3.2
+          temperature: 0.5
+
+server:
+  shutdown: graceful
+
