@@ -4,7 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d21b835e-798b-4a25-83fa-041b8db20d32" name="Changes" comment="" />
+    <list default="true" id="d21b835e-798b-4a25-83fa-041b8db20d32" name="Changes" comment="add gitignore">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/llm-api/src/main/java/org/fubabz/mcp/llm/controller/ChatController.java" beforeDir="false" afterPath="$PROJECT_DIR$/llm-api/src/main/java/org/fubabz/mcp/llm/controller/ChatController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/llm-api/src/main/java/org/fubabz/mcp/llm/controller/SummarizeRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/llm-api/src/main/java/org/fubabz/mcp/llm/controller/SummarizeRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/llm-api/src/main/java/org/fubabz/mcp/llm/service/LLMService.java" beforeDir="false" afterPath="$PROJECT_DIR$/llm-api/src/main/java/org/fubabz/mcp/llm/service/LLMChatService.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -75,12 +80,12 @@
     &quot;assignee&quot;: &quot;ethan-git&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "git@github.com:ethan-git/mcp-sample.git",
-    "accountId": "3c65859b-8017-4511-b812-c4c01e80e90a"
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;git@github.com:ethan-git/mcp-sample.git&quot;,
+    &quot;accountId&quot;: &quot;3c65859b-8017-4511-b812-c4c01e80e90a&quot;
   }
-}]]></component>
+}</component>
   <component name="KubernetesApiPersistence">{}</component>
   <component name="KubernetesApiProvider">{
   &quot;isMigrated&quot;: true
@@ -281,10 +286,16 @@
       <updated>1745656449624</updated>
       <workItem from="1745656451121" duration="16678000" />
       <workItem from="1745675613581" duration="483000" />
+      <workItem from="1745814857991" duration="405000" />
+      <workItem from="1745816190015" duration="5946000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="add gitignore" />
+    <option name="LAST_COMMIT_MESSAGE" value="add gitignore" />
   </component>
 </project>
